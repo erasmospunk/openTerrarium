@@ -1,0 +1,29 @@
+
+circuit current
+===============
+
+73.6	mA	on (max)
+~47	mA	on
+
+~15	mA	off	
+1.3	mA	off (min)
+
+
+relay volts
+===========
+
+4,73	V	on (max)
+~3	V	on
+
+~0.85	V	off	
+0	V	off (min)
+
+
+pin transistor-base volts
+=========================
+
+4,88	V	on (max)
+~1.11	V	on
+
+~0.85	V	off	
+0	V	off (min)
