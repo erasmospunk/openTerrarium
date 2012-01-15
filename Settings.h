@@ -1,7 +1,7 @@
 #ifndef SETTINGS_h
 #define SETTINGS_h
 
-#include <WProgram.h>
+#include <Arduino.h>
 #include <EEPROM.h>
 #include <Time.h>
 

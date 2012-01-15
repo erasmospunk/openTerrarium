@@ -18,7 +18,7 @@ DeviceAddress tAddr;
 
 void initTempSensor() {
   tempSensor.begin();
-  tempSensor.setWaitForConversion(false);
+  //tempSensor.setWaitForConversion(false);
   
   if (!tempSensor.getAddress(tAddr, 0)) {
     Serial.println("Unable to find address for Device 0"); 

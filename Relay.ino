@@ -6,7 +6,7 @@
  *   setTargetTemp(float temp)
  *   controlRelay(float currentTemp)
  **************************************************/
-#include <PID_Beta6.h>
+#include <PID_v1.h>
 
 #define RELAY_ON HIGH
 #define RELAY_OFF LOW
@@ -15,7 +15,7 @@ double Input, Output;
 double targetTemp = 14;
 double adjustmentTemp = - 0.8;
 
-PID myPID(&Input, &Output, &targetTemp, 2, 0.25, 1);
+PID myPID(&Input, &Output, &targetTemp, 2, 0.25, 1, DIRECT);
 
 unsigned long timeRelayChanged = 0;
 
@@ -27,7 +27,7 @@ void initRelay() {
   digitalWrite(RELAY_PIN, LOW);
   relayStatus = RELAY_OFF;
   
-  myPID.SetMode(AUTO);
+  myPID.SetMode(AUTOMATIC);
   myPID.SetOutputLimits(0,1);
 }
 

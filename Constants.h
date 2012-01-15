@@ -8,14 +8,17 @@
 #define ZC_INT 0 //pin 2
 #define TRIAC_PIN 3
 
+
+// LCD software params
 #define LCD_LINES            4
 #define LCD_LINE_SIZE        20
+#define LCD_MIN_BRIGHTNESS   95
+// LCD hardware params
 #define LCD_DATA_PIN         7
 #define LCD_CLOCK_PIN        6
 #define LCD_BRIGHTNESS_PIN   5
 #define LCD_ENABLE_PIN       4
 
-#define LCD_MIN_BRIGHTNESS   95
 
 #define BUTTONS_A_PIN        11
 #define BUTTONS_B_PIN        10

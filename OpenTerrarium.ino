@@ -10,7 +10,7 @@ bugs:
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-#include <WProgram.h>
+#include <Arduino.h>
 #include <Wire.h>
 #include <Time.h>
 #include <DS1307RTC.h>  // a basic DS1307 library that returns time as a time_t
