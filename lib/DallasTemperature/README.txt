@@ -26,6 +26,8 @@ Miles Burton <miles@mnetcs.com> originally developed this library.
 Tim Newsome <nuisance@casualhacker.net> added support for multiple sensors on
 the same bus.
 Guil Barros [gfbarros@bappos.com] added getTempByAddress (v3.5)
+Rob Tillaart [rob.tillaart@gmail.com] added async modus (v3.7.0)
+
 
 Website
 -------
